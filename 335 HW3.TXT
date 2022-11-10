@@ -1,0 +1,27 @@
+================================================================
+Name           : Maxwell Large
+Filename       :create_and_test_hash.cc,double_hashing.h,linear_probing.h,quadratic_probing,spell_check.cc   
+================================================================
+I. Everything works.
+
+II.Linear and quadratic was a little complex but made sense eventually after converting each line into paper and tracing steps. Double was difficult because at first I just did R-X MOD R in 2ndhash but that was wrong.The pdf said to do that but, I had to also mod array.size(). Spell check was really difficult. I mean it was basic logic to run on terminal. But it was super hard to make good enough for gradescope. Gradescope is too strict. 
+
+III. Im on Mac but I run it like this. 1)have your files(create_and_test_hash.cc,double_hashing.h,linear_probing.h,quadratic_probing,spell_check.cc)in a folder lets call it "file"
+                                       2)open terminal
+				       3)enter cd desktop
+				       4)enter cd file
+			               5)enter  make clean
+                                       6)enter make spell_check or ./create_and_test_hash words.txt query_words.txt double or ./create_and_test_hash words.txt query_words.txt linear or ./create_and_test_hash words.txt query_words.txt quadratic
+                                       7)enter ./spell_check document1_short.txt wordsEn.txt linear or ./spell_check document1_short.txt wordsEn.txt quadratic or ./spell_check document1_short.txt wordsEn.txt double
+
+
+IIII. I used my own main for question for each question and I got input via provided files and r value via command line in terminal.
+
+ I dont think I need to reference swap,erase and insert, I knew about those commands for years.
+
+References: http://www.cplusplus.com/reference/algorithm/copy_if/
+            https://www.tutorialspoint.com/cplusplus/cpp_continue_statement.htm
+            https://stackoverflow.com/questions/4324441/testing-stream-good-or-stream-eof-reads-last-line-twice 
+
+
+                                        
